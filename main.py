@@ -82,6 +82,7 @@ def main():
 
 		# Make a copy of the image and draw the axis on it
 		img_axis = img.copy()
+		# 0.1 is length of axis to be drawn
 		aruco.drawAxis(img_axis, mtx, dist, rvec, tvec, 0.1)
 		# Save the image to the out directory
 		out_path = os.path.join(base_path, f'out/out_{i}.png')
