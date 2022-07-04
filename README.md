@@ -1,4 +1,4 @@
-# AGV Task 5: Pose Estimation
+# OpenCV ArUco Tag Pose Estimation with Camera Calibration
 
 ### Project Structure
 
@@ -9,3 +9,6 @@ the generated images are stored in the out directory.
 
 A small take_img.py helper script was used to conveniently take images
 from the webcam.
+
+This project was originally completed as part of the Autonomous
+Ground Vehicle Research Group software team selections 2021.
